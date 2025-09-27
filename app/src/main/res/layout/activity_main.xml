@@ -13,37 +13,77 @@ android:paddingRight="30dp">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="103"
-        <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
-        />
-
-
+        android:layout_weight="103">
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="103"
-        android:background="#ffffff"
+        android:orientation="vertical">
 
+        <TextView
+            android:id="@+id/tv_hello"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/pretendard_extrabold"
+            android:text="안녕하세요."
+            android:textColor="#FFFFFF"
+            android:textSize="35sp"
+            android:paddingVertical="5dp"
+            />
 
+        <TextView
+            android:id="@+id/tv_goodDay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/pretendard_semibold"
+            android:text="잔량을 측정하기 좋은 날이군요."
+            android:textColor="#B8B8B8"
+            android:textSize="20sp"
         />
 
-    <LinearLayout
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/instruction_card"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="418"
-        android:background="#000000"
-        />
+        android:cardCornerRadius="12dp"
+        android:cardElevation="4dp"
+        android:layout_margin="16dp">
+
+        <LinearLayout
+            android:id="@+id/instruction_box"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="22dp"
+            android:background="@drawable/box_background">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/pretendard_semibold"
+                android:gravity="start"
+                android:lineSpacingExtra="6dp"
+                android:padding="4dp"
+                android:text="1. 잔량을 측정할 건전지를\n준비하세요.\n\n2. 측정 시작 버튼을 누르고 \n건전지를 떨어뜨리세요.\n\n3. AI가 튀어오르는 높이를 \n분석하여 잔량을 측정합니다."
+                android:textColor="#FFFFFF"
+                android:textSize="22sp" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="151"
-        android:background="#fff"
-        />
+        android:background="#fff">
 
+    </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"

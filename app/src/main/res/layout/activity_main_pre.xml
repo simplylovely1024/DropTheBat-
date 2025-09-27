@@ -63,10 +63,9 @@
                 android:layout_height="320dp"
                 android:fontFamily="@font/pretendard_semibold"
                 android:gravity="start"
-                android:letterSpacing="0.09"
                 android:lineSpacingExtra="6dp"
                 android:padding="4dp"
-                android:text="1. 잔량을 측정할 건전지를 준비하세요.\n\n2. 측정 시작 버튼을 누르고 건전지를 떨어뜨리세요.\n\n3. AI가 튀어오르는 높이를 분석하여 잔량을 측정합니다."
+                android:text="1. 잔량을 측정할 건전지를\n준비하세요.\n\n2. 측정 시작 버튼을 누르고 \n건전지를 떨어뜨리세요.\n\n3. AI가 튀어오르는 높이를 \n분석하여 잔량을 측정합니다."
                 android:textColor="#FFFFFF"
                 android:textSize="22sp" />
 
